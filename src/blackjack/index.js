@@ -36,7 +36,7 @@ btnHit.addEventListener('click', () => {
 
 
   if (playerPoints > 21) {
-    console.warn("You lost the game, loser!!");
+    console.warn("You lost the game, loser!");
     btnHit.disabled = true;
     btnStd.disabled = true;
     pcTurn(scoreBoard, divCards, deck, score, playerPoints);
